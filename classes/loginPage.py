@@ -41,5 +41,7 @@ class LoginPage:
             self.F2.destroy()
             self.F1.destroy()
             frontPage.FrontPage(self.root)
+        else:
+            print(a.text)
             
 

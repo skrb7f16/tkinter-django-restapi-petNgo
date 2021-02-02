@@ -1,6 +1,7 @@
 from tkinter import *
 from .loginPage import LoginPage
 from .donation import Donate
+from .report import Report
 
 import os
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
@@ -30,5 +31,7 @@ class FrontPage:
     def report(self):
         self.F1.destroy()
         self.F2.destroy()
+        Report(self.root)
+
 
 
